@@ -4,6 +4,6 @@ document.getElementById("get-activity").addEventListener("click", function() {
     .then(data => {
       document.getElementById("activity").textContent = data.activity
       document.getElementById("title").textContent = "🦾 HappyBot🦿"
-      document.body.classList.add("fun")
+      document.querySelector("main").classList.add("fun")
     })
 })
